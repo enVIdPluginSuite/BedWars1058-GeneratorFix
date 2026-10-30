@@ -1,0 +1,7 @@
+name: BedWars1058-GeneratorFix
+main: dev.etran.bedwars1058generatorfix.GeneratorFixPlugin
+version: ${version}
+api-version: "1.13"
+author: etran
+description: Keeps BedWars1058 generator bases intact at sudden death.
+softdepend: [BedWars1058, BedWars2023]

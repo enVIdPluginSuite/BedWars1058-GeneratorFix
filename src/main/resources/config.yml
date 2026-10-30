@@ -1,0 +1,14 @@
+# BedWars1058-GeneratorFix configuration
+#
+# BedWars1058 deletes the blocks directly below each team generator when sudden death starts.
+# This plugin remembers them just before that happens and puts them back.
+
+# How many blocks down (starting at the generator's own block) to protect.
+# BedWars1058 removes 20, so keep this at 20 or more.
+depth: 20
+
+# Ticks to wait before restoring (20 ticks = 1 second). Must be at least 1.
+restore-delay-ticks: 1
+
+# Log how many blocks were saved/restored.
+debug: false
